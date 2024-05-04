@@ -12,7 +12,7 @@ export default function teacher() {
           <li class="card">
             <img src={avatar} alt="Avatar"/>
             <div class="card_container">
-              <h4><b><span className='card_span'>F.I.Sh:</span> Aqtiqbayev Maxkam Artiqbayevich</b></h4>
+              <h4><b><span className='card_span'>F.I.Sh:</span> Artiqbayev Maxkam Artiqbayevich</b></h4>
               <p>PhD</p>
               <h5><b><span className='card_span'>Fan:</span> Dasturiy injiniringga kirish</b></h5>
             </div>
