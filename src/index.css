@@ -108,6 +108,134 @@ header img {
   position: relative;
   height: calc(100vh - 70px);
 }
+.home .home_com > h3 {
+  top: 2%;
+  margin: 20px 0px;
+  text-align: center;
+  font-size: 24px;
+  /* left: 5%; */
+  color: white;
+  /* position: absolute; */
+}
+
+.home .home_com {
+  left: 5%;
+  top: 1%;
+  height: 89vh;
+  color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-right: 5%;
+  position: absolute;
+  padding-bottom: 40px;
+}
+
+/* home news */
+.home .home_news_com {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  border-bottom: 1px solid;
+}
+.home .home_com h1 {
+  margin: 10px 0px;
+}
+.home .home_com::-webkit-scrollbar {
+  display: none;
+}
+.home .home_news_item {
+  width: 250px;
+  border-radius: 4px;
+  background-color: #04577dc4;
+}
+.home .home_news_item:hover {
+  box-shadow: 0px 0px 4px 0px rgb(156, 156, 156);
+}
+.home .home_news_item h3 {
+  color: goldenrod;
+}
+.home .home_news_item div {
+  padding: 10px;
+}
+.home .home_news_com img {
+  width: 250px;
+  height: 250px;
+  border-radius: 4px 4px 0 0;
+  background-color: #107c9c;
+}
+
+/* home link */
+.home_link {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid;
+}
+
+.home_link .home_link_com {
+  display: flex;
+  gap: 30px;
+}
+.home_link .home_link_item:hover {
+  box-shadow: 0px 0px 4px 0px rgb(156, 156, 156);
+}
+.home_link .home_link_item {
+  width: 300px;
+  height: 160px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #04577dc4;
+}
+.home_link .home_link_item h4 {
+  padding: 4px 0px;
+}
+.home_link .home_link_item img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+.home .home_link_item span {
+  color: goldenrod;
+  font-weight: bold;
+}
+/* home footer */
+.home_footer {
+  margin-top: 50px;
+  background-color: #107c9c;
+}
+.home_footer_com {
+  display: flex;
+  gap: 30px;
+}
+.home_footer_item {
+  height: 100%;
+}
+.home_footer_item:last-child {
+
+  padding: 20px 0px;
+}
+.home_footer_social {
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+.home_footer_social a {
+  height: 36px;
+}
+.home_footer_social a:hover {
+  transform: scale(1.1);
+}
+.home_footer .home_footer_social img {
+  width: 36px;
+  height: 36px;
+}
+.home_footer_right > li {
+  margin: 20px 0px;
+}
+.home_footer_right h4 {
+  color: goldenrod;
+}
+
 
 .home_img::before {
   content: '';
