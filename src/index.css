@@ -572,7 +572,29 @@ header img {
   height: 250px;
 }
 
+@media only screen and (max-width: 950px) {
+  .home_footer_com {
+    display: block;
+    padding: 20px;
+  }
+  .home_footer_item:first-child {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+  }
+  .home_footer_item:last-child {
+    padding-left: 20px;
+  }
+}
 @media only screen and (max-width: 735px) {
+  .home_link .home_link_com {
+    display: block;
+  }
+  .home_link .home_link_item {
+    margin: 10px 0px;
+  }
+  .home_footer_item iframe {
+    width: 90%;
+  }
   .header {
     top: 0;
     width: 300px;
