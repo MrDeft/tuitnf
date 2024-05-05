@@ -235,7 +235,10 @@ header img {
 .home_footer_right h4 {
   color: goldenrod;
 }
-
+.map-container {
+  height: 100%;
+  width: 100%;
+}
 
 .home_img::before {
   content: '';

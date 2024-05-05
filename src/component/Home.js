@@ -1,4 +1,7 @@
 import React from 'react'
+// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+
+
 import tatuimg from '../masofaviy/tatuimg.png'
 import { Link } from 'react-router-dom'
 import facebook from '../images/social/facebook.svg'
@@ -9,6 +12,7 @@ import youtube from '../images/social/youtube.svg'
 import website from '../images/social/website.png'
 
 export default function Home() {
+
   return (
     <div className='home'>
       <div className='home_img'>
@@ -102,7 +106,21 @@ export default function Home() {
           <div className='home_footer'>
             <ul className='home_footer_com'>
               <li className='home_footer_item'>
-                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.6966481790237!2d59.62231558946046!3d42.46179371301456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41dd9a6a5da477e9%3A0x25c61071930fbf14!2z0J3Rg9C60YPRgdGB0LrQuNC5INCk0LjQu9C40LDQuyDQotCw0YjQutC10L3RgdGC0LrQvtCz0L4g0KPQvdC40LLQtdGA0YHQuNGC0LXRgtCwINCY0L3RhNC-0YDQvNCw0YbQuNC-0L3QvdGL0YUg0KLQtdGF0L3QvtC70L7Qs9C40LksIEEuIERvc25hemFyb3Yga28nc2hlc2ksINCd0YPQutGD0YEsINCg0LXRgdC_0YPQsdC70LjQutCwINCa0LDRgNCw0LrQsNC70L_QsNC60YHRgtCw0L0sINCj0LfQsdC10LrQuNGB0YLQsNC9!5e1!3m2!1sru!2s!4v1714838835991!5m2!1sru!2s" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe> */}
+{/* 
+                <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: "400px" }}>
+                  <TileLayer
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                  />
+                  <Marker position={[51.505, -0.09]}>
+                    <Popup>
+                      A pretty CSS3 popup. <br /> Easily customizable.
+                    </Popup>
+                  </Marker>
+                </MapContainer> */}
+
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.6966481790237!2d59.62231558946046!3d42.46179371301456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41dd9a6a5da477e9%3A0x25c61071930fbf14!2z0J3Rg9C60YPRgdGB0LrQuNC5INCk0LjQu9C40LDQuyDQotCw0YjQutC10L3RgdGC0LrQvtCz0L4g0KPQvdC40LLQtdGA0YHQuNGC0LXRgtCwINCY0L3RhNC-0YDQvNCw0YbQuNC-0L3QvdGL0YUg0KLQtdGF0L3QvtC70L7Qs9C40LksIEEuIERvc25hemFyb3Yga28nc2hlc2ksINCd0YPQutGD0YEsINCg0LXRgdC_0YPQsdC70LjQutCwINCa0LDRgNCw0LrQsNC70L_QsNC60YHRgtCw0L0sINCj0LfQsdC10LrQuNGB0YLQsNC9!5e1!3m2!1sru!2s!4v1714838835991!5m2!1sru!2s" width="600" title="This is a unique title" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
               </li>
               <li className='home_footer_item'>
                 <h3>Biz bilan bog'lanish</h3>
