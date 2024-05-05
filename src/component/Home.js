@@ -29,7 +29,7 @@ export default function Home() {
           <div className='home_news'>
             <h1>Yangiliklar</h1>
             <ul className='home_news_com'>
-            <li className={`news_item ${selectedItemIndex === 0 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(0)}>
+              <li className={`${selectedItemIndex === 0 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(0)}>
                 <>
                   <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 0)}>
                     {selectedItemIndex === 0 ? 'Yopish' : 'Add Class'}
@@ -41,8 +41,11 @@ export default function Home() {
                   </div>
                 </>
               </li>
-              <li className='home_news_item'>
+              <li className={`${selectedItemIndex === 1 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(1)}>
                 <>
+                  <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 0)}>
+                    {selectedItemIndex === 1 ? 'Yopish' : 'Add Class'}
+                  </button>
                   <img className='home_news_img' src="https://tatunf.uz/images/news/2024/may/1/8.jpg" alt="" />
                   <div>
                     <h4>"Jaslar akademiyası forumı" bolıp ótti.</h4>
@@ -50,8 +53,11 @@ export default function Home() {
                   </div>
                 </>
               </li>
-              <li className='home_news_item'>
+              <li className={`${selectedItemIndex === 2 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(2)}>
                 <>
+                  <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 0)}>
+                    {selectedItemIndex === 2 ? 'Yopish' : 'Add Class'}
+                  </button>
                   <img className='home_news_img' src="https://tatunf.uz/images/news/2024/may/1/11.jpg" alt="" />
                   <div>
                     <h4>Búgin erte tańnan paytaxtımız boylap «Bir watanda, bir waqıtta, birdey aralıqqa, bir maqsette – birgelikte</h4>
@@ -59,8 +65,11 @@ export default function Home() {
                   </div>
                 </>
               </li>
-              <li className='home_news_item'>
+              <li className={`${selectedItemIndex === 3 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(3)}>
                 <>
+                  <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 0)}>
+                    {selectedItemIndex === 3 ? 'Yopish' : 'Add Class'}
+                  </button>
                   <img className='home_news_img' src="https://tatunf.uz/images/news/2024/april/5/6.jpg" alt="" />
                   <div>
                     <h4>Mutoala loyihasi taqdimoti bilan tanishmoqda</h4>
@@ -71,8 +80,11 @@ export default function Home() {
                   </div>
                 </>
               </li>
-              <li className='home_news_item'>
+              <li className={`${selectedItemIndex === 4 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(4)}>
                 <>
+                  <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 0)}>
+                    {selectedItemIndex === 4 ? 'Yopish' : 'Add Class'}
+                  </button>
                   <img className='home_news_img' src="https://tatunf.uz/images/news/2024/april/5/24.jpg" alt="" />
                   <div>
                     <h4>"Xon atlas" ilaji bolıp ótti</h4>
@@ -101,7 +113,7 @@ export default function Home() {
               </li>
 
               <li className='home_link_item'>
-                <a href="https://student.tatunf.uz/dashboard/login">
+                <a href="https://studentlms.tatunf.uz">
                   <div>
                     <img src="https://student.tatunf.uz/assets/226ccd22/img/gerb.png" alt="" />
                     <div>

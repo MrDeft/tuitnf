@@ -4,7 +4,7 @@ import avatar from '../images/avatar.png'
 
 export default function employees() {
   return (
-    <div className='teacher'>
+    <div className='employees'>
       <div className='home_img'>
         <h2>Xodimlar Bo'limi</h2>
         <img src={tatuimg} alt="" />

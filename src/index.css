@@ -108,7 +108,8 @@ header img {
   position: relative;
   height: calc(100vh - 70px);
 }
-.home .home_com > h3 {
+
+.home .home_com>h3 {
   top: 2%;
   margin: 20px 0px;
   text-align: center;
@@ -138,33 +139,42 @@ header img {
   padding-bottom: 50px;
   border-bottom: 1px solid;
 }
+
 .home .home_com h1 {
   margin: 10px 0px;
 }
+
 .home .home_com::-webkit-scrollbar {
   display: none;
 }
+
 .home_news_item {
   width: 300px;
   height: 500px;
+  cursor: pointer;
   border-radius: 4px;
   overflow-y: hidden;
   background-color: #04577dc4;
 }
+
 .home .home_news_item:hover {
   box-shadow: 0px 0px 4px 0px rgb(156, 156, 156);
 }
+
 .home .home_news_item h4 {
   color: goldenrod;
   margin-bottom: 10px;
 }
+
 .home .home_news_item p {
   margin-bottom: 10px;
   overflow: hidden;
 }
+
 .home .home_news_item div {
   padding: 10px;
 }
+
 .home .home_news_com img {
   width: 300px;
   height: 250px;
@@ -173,31 +183,41 @@ header img {
 }
 
 .home_news_active {
-  top: 0;
+  top: 0vh;
   left: 0;
   gap: 20px;
   width: 100%;
   z-index: 122;
-  height: 85vh;
+  height: 100vh;
   display: flex;
-  position: absolute;
+  padding: 30px;
+  position: fixed;
+  transition: all .05s;
   background-color: #1c1c1cf4;
 }
+
 .home .home_news_active img {
   width: 500px;
   height: 400px;
 }
-.home .home_news_active div {
-  padding-top: 30px;
+
+.home .home_news_active h4 {
+  color: goldenrod;
+  margin-bottom: 10px;
+  font-size: 28px;
 }
+
 .home_news_item_btn {
   display: none;
 }
+
 .home_news_active .home_news_item_btn {
   top: 0;
   right: 0;
   display: inline;
   position: absolute;
+  background-color: red;
+  color: white;
 }
 
 
@@ -213,9 +233,11 @@ header img {
   display: flex;
   gap: 30px;
 }
+
 .home_link .home_link_item:hover {
   box-shadow: 0px 0px 4px 0px rgb(156, 156, 156);
 }
+
 .home_link .home_link_item {
   width: 300px;
   height: 160px;
@@ -223,55 +245,69 @@ header img {
   text-align: center;
   background-color: #04577dc4;
 }
+
 .home_link .home_link_item h4 {
   padding: 4px 0px;
 }
+
 .home_link .home_link_item img {
   width: 50px;
   height: 50px;
   margin-top: 10px;
 }
+
 .home .home_link_item span {
   color: goldenrod;
   font-weight: bold;
 }
+
 /* home footer */
 .home_footer {
   margin-top: 50px;
   background-color: #107c9c;
 }
+
 .home_footer_com {
   display: flex;
   gap: 30px;
 }
+
 .home_footer_item {
   height: 100%;
 }
+
 .home_footer_item:last-child {
 
   padding: 20px 0px;
 }
+
 .home_footer_social {
   gap: 10px;
   margin-top: 10px;
   display: flex;
 }
+
 .home_footer_social a {
   height: 36px;
 }
+
 .home_footer_social a:hover {
   transform: scale(1.1);
 }
+
 .home_footer .home_footer_social img {
   width: 36px;
   height: 36px;
 }
-.home_footer_right > li {
+
+.home_footer_right>li {
   margin: 20px 0px;
 }
+
 .home_footer_right h4 {
   color: goldenrod;
 }
+
 .map-container {
   height: 100%;
   width: 100%;
@@ -408,20 +444,59 @@ header img {
   height: calc(100vh - 75px);
 }
 
-/* Teacher */
-.teacher h2 {
-  top: 5%;
+/* Employees */
+.employees {
+  position: relative;
+}
+
+.employees h2 {
+  top: 3%;
   left: 5%;
 }
 
-.teacher .bolim {
+.employees .bolim {
   left: 5%;
   top: 15%;
-  height: 70vh;
+  height: 75vh;
   overflow-y: scroll;
   overflow-x: hidden;
   margin-right: 5%;
   position: absolute;
+}
+
+.employees .bolim::-webkit-scrollbar {
+  display: none;
+}
+
+.employees .bolim_item {
+  gap: 10px;
+  padding: 7px;
+  display: flex;
+  margin: 8px 0px;
+  border-radius: 5px;
+  transition: all .9;
+  align-items: center;
+  background-color: #ebebeb73;
+}
+
+.employees .bolim_item:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.employees .bolim img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+
+
+
+/* Teacher Card */
+.teacher h2 {
+  top: 2%;
+  left: 5%;
 }
 
 .teacher_plus .home_img::before {
@@ -433,52 +508,35 @@ header img {
   position: fixed;
   z-index: -1;
 }
-
-.teacher .bolim::-webkit-scrollbar {
+.teacher_com::-webkit-scrollbar {
   display: none;
 }
-
-.teacher .bolim_item {
-  gap: 10px;
-  padding: 7px;
-  display: flex;
-  margin: 8px 0px;
-  border-radius: 5px;
-  transition: all .9;
-  align-items: center;
-  background-color: #ebebeb73;
-}
-
-.teacher .bolim_item:hover {
-  cursor: pointer;
-  transform: scale(1.02);
-}
-
-.teacher .bolim img {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-
-/* Card */
-
-.card_com {
+.teacher_com {
   left: 5%;
-  top: 15%;
-  gap: 20px;
+  width: 90%;
+  top: 10%;
   z-index: 11;
+  height: 80vh;
+  margin-right: 5%;
+  overflow: scroll;
+  position: absolute;
+  overflow-x: hidden;
+  
+}
+.teacher_com > div {
+  border-top: 1px solid white;
+  padding-bottom: 100px;
+}
+.teacher_com h3 {
+  color: goldenrod;
+  padding: 20px 20px;
+}
+.card_com {
+  gap: 20px;
   display: flex;
   flex-wrap: wrap;
-  margin-right: 5%;
-  position: absolute;
-  overflow: scroll;
-  height: 70vh;
-  overflow-x: hidden;
 }
 
-.card_com::-webkit-scrollbar {
-  display: none;
-}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -506,6 +564,7 @@ header img {
 
 .card_span {
   color: #107c9c;
+  padding-right: 7px;
 }
 
 .card img {
