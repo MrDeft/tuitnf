@@ -118,7 +118,7 @@ export default function Home() {
                   </li>
                   <li>
                     <h4>E-mail:</h4>
-                    <p>kantatunf@umail.uz</p>
+                    <p><a href="mailto:kantatunf@umail.uz">kantatunf@umail.uz</a></p>
                   </li>
                   <li>
                     <h4>Biz ijtimoiy tarmoqlarda:</h4>
