@@ -32,7 +32,7 @@ export default function Home() {
               <li className={`home_news_item ${selectedItemIndex === 44 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(44)}>
                 <>
                   <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 44)}>
-                    {selectedItemIndex === 0 ? 'Yopish' : 'Add Class'}
+                    {selectedItemIndex === 0 ? 'Yopish' : 'Yoopish'}
                   </button>
                   <img className='home_news_img' src="https://tatunf.uz/images/news/2024/may/1/4.jpg" alt="" />
                   <div>
@@ -44,7 +44,7 @@ export default function Home() {
               <li className={`home_news_item ${selectedItemIndex === 1 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(1)}>
                 <>
                   <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 0)}>
-                    {selectedItemIndex === 1 ? 'Yopish' : 'Add Class'}
+                    {selectedItemIndex === 1 ? 'Yopish' : 'Yoopish'}
                   </button>
                   <img className='home_news_img' src="https://tatunf.uz/images/news/2024/may/1/8.jpg" alt="" />
                   <div>
@@ -56,7 +56,7 @@ export default function Home() {
               <li className={`home_news_item ${selectedItemIndex === 2 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(2)}>
                 <>
                   <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 0)}>
-                    {selectedItemIndex === 2 ? 'Yopish' : 'Add Class'}
+                    {selectedItemIndex === 2 ? 'Yopish' : 'Yoopish'}
                   </button>
                   <img className='home_news_img' src="https://tatunf.uz/images/news/2024/may/1/11.jpg" alt="" />
                   <div>
@@ -68,7 +68,7 @@ export default function Home() {
               <li className={`home_news_item ${selectedItemIndex === 3 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(3)}>
                 <>
                   <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 0)}>
-                    {selectedItemIndex === 3 ? 'Yopish' : 'Add Class'}
+                    {selectedItemIndex === 3 ? 'Yopish' : 'Yoopish'}
                   </button>
                   <img className='home_news_img' src="https://tatunf.uz/images/news/2024/april/5/6.jpg" alt="" />
                   <div>
@@ -83,7 +83,7 @@ export default function Home() {
               <li className={`home_news_item ${selectedItemIndex === 4 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(4)}>
                 <>
                   <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 0)}>
-                    {selectedItemIndex === 4 ? 'Yopish' : 'Add Class'}
+                    {selectedItemIndex === 4 ? 'Yopish' : 'Yoopish'}
                   </button>
                   <img className='home_news_img' src="https://tatunf.uz/images/news/2024/april/5/24.jpg" alt="" />
                   <div>
