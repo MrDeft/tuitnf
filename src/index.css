@@ -363,34 +363,6 @@ header img {
 }
 
 
-/* Exam */
-.exam{
-  display: grid;
-  text-align: center;
-}
-
-.exam ul{
-  padding: 20px 0px;
-  border-bottom: 1px solid;
-}
-
-.exam img{
-  width: 70%;
-}
-
-.exam .exam__item__img {
-  width: 80%;
-  margin: auto;
-}
-
-.exam .exam__item__titul{
-  margin-bottom: 10px;
-}
-
-.exam ul:last-child{
-  border-bottom: 0px;
-}
-
 
 /* O'quv rejasi */
 .curriculum {
@@ -409,13 +381,15 @@ header img {
   position: absolute;
   background-color: #1c1c1c;
 }
+
 .curriculum_in::-webkit-scrollbar {
   display: none;
 }
+
 .curriculum_in {
+  top: 0%;
   left: 5%;
   width: 90%;
-  top: 0%;
   z-index: 11;
   height: 90vh;
   margin-right: 5%;
@@ -423,6 +397,12 @@ header img {
   position: absolute;
   overflow-x: hidden;
 }
+
+.curriculum_in>li {
+  padding-bottom: 50px;
+  border-bottom: 1px solid goldenrod;
+}
+
 .curriculum_com {
   grid-gap: 20px;
   flex-wrap: wrap;
@@ -443,11 +423,11 @@ header img {
 
 .curriculum_img {
   padding: 20px;
-  padding-bottom: 50px;
-  border-bottom: 1px solid goldenrod;
 }
 
-.curriculum_img h1, .lesson>h1 {
+.curriculum_img h1,
+.lesson>h1,
+.exam>h1 {
   color: white;
   margin-bottom: 20px;
 }
@@ -478,31 +458,42 @@ header img {
 .lesson {
   padding: 20px;
 }
+
 .lesson_com {
   gap: 20px;
-  flex-wrap: wrap;
   width: 100%;
+  flex-wrap: wrap;
   position: relative;
   display: inline-flex;
 }
+
 .lesson_com li:first-child button {
   background-color: red;
   color: white;
 }
+
 .lesson_item_img {
   left: 2000px;
   margin: 20px 0px;
   position: absolute;
 }
+
 .lesson_item_titul_active {
   color: white;
   background-color: #04567d;
 }
+
 .lesson_item_img_active {
   left: 0px;
 }
+
 .lesson_item_img img {
   width: 100%;
+}
+
+/* Exam */
+.exam {
+  padding: 20px;
 }
 
 
