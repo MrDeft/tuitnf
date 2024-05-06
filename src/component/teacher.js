@@ -29,11 +29,11 @@ export default function Teacher() {
               {
                 teachers1.map((teacher, index) => (
                   <li className="card" id={index}>
-                    <img src={avatar} alt="Avatar" />
+                    <img src={teacher.rasm ? teacher.rasm : avatar} alt="Avatar" />
                     <div className="card_container">
                       <h4><b><span className='card_span'>F.I.Sh:</span>{teacher.fish}</b></h4>
-                    <p>PhD</p>
-                    <h5><b><span className='card_span'>Fan:</span>{teacher.fan}</b></h5>
+                      <p>PhD</p>
+                      <h5><b><span className='card_span'>Fan:</span>{teacher.fan}</b></h5>
                     </div>
                   </li>
                 ))
@@ -47,14 +47,14 @@ export default function Teacher() {
           <div>
             <h3>2-Kurs</h3>
             <ul className='card_com'>
-            {
+              {
                 teachers2.map((teacher, index) => (
                   <li className="card" id={index}>
-                    <img src={avatar} alt="Avatar" />
+                    <img src={teacher.rasm ? teacher.rasm : avatar} alt="Avatar" />
                     <div className="card_container">
                       <h4><b><span className='card_span'>F.I.Sh:</span>{teacher.fish}</b></h4>
-                    <p>PhD</p>
-                    <h5><b><span className='card_span'>Fan:</span>{teacher.fan}</b></h5>
+                      <p>PhD</p>
+                      <h5><b><span className='card_span'>Fan:</span>{teacher.fan}</b></h5>
                     </div>
                   </li>
                 ))

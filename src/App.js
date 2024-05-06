@@ -2,7 +2,6 @@
 import React from 'react'
 import Header from "./component/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import examSchedule from "./component/examSchedule";
 import about from "./component/about";
 import teacher from './component/teacher';
 import curriculum from './component/curriculum';
@@ -24,10 +23,6 @@ function App() {
           <Route
             path="/"
             Component={home}
-          />
-          <Route
-            path="/exam-schedule/"
-            Component={examSchedule}
           />
           <Route
             path="/about/"

@@ -57,12 +57,9 @@ export default function Curriculum() {
         }
     }, [activeDiv]);
 
-
-
     const handleTabClick = (index) => {
         setActiveTab(index);
     };
-
 
     return (
         <div className='curriculum'>

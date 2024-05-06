@@ -340,7 +340,7 @@ header img {
 
 .home_img::before {
   content: '';
-  opacity: .5;
+  opacity: .8;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -550,6 +550,60 @@ header img {
 }
 
 
+/* Biz haqimizda */
+.about {
+  position: relative;
+  height: calc(100vh - 70px);
+}
+
+.about_com {
+  top: 0%;
+  left: 5%;
+  width: 90%;
+  z-index: 11;
+  height: 90vh;
+  margin-right: 5%;
+  overflow: scroll;
+  position: absolute;
+  overflow-x: hidden;
+}
+
+.about_com::-webkit-scrollbar {
+  display: none;
+}
+
+.about::before {
+  content: '';
+  opacity: .8;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #1c1c1c;
+}
+
+.about>img {
+  width: 100vw;
+  object-fit: cover;
+  height: calc(100vh - 75px);
+}
+
+.about_com h3{
+  margin: 20px;
+  color: white;
+}
+
+.about_com_text {
+  margin: 4px;
+  padding: 20px;
+  color: white;
+  border-radius: 4px;
+  background-color: #04567d;
+  box-shadow: 2px 2px 2px 0px;
+}
+
+
+
+
 
 /* Teacher Card */
 .teacher h2 {
@@ -584,7 +638,7 @@ header img {
 }
 
 .card_com {
-  gap: 20px;
+  gap: 15px;
   display: flex;
   flex-wrap: wrap;
 }

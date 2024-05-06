@@ -32,7 +32,7 @@ export default function Home() {
       <div className='home_img'>
         <div className='home_com'>
           <h3>
-          Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti Nukus filiali “Masofaviy ta’limni tashkil etish va rivojlantirish” markazi rasmiy web sahifasi
+            Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti Nukus filiali “Masofaviy ta’limni tashkil etish va rivojlantirish” markazi rasmiy web sahifasi
           </h3>
           {/* Yangiliklar */}
           <div className='home_news'>
@@ -48,65 +48,14 @@ export default function Home() {
                       <img className='home_news_img' src={news.img} alt="" />
                       <div>
                         <h4>{news.title}</h4>
-                        <p style={{display: selectedItemIndex === (index + 1) ? "none" : "block"}}>{news.text_short}</p>
-                        <p style={{display: selectedItemIndex === (index + 1) ? "block" : "none"}} dangerouslySetInnerHTML={{ __html: news.text_full }} />
+                        <p style={{ display: selectedItemIndex === (index + 1) ? "none" : "block" }}>{news.text_short}</p>
+                        <p style={{ display: selectedItemIndex === (index + 1) ? "block" : "none" }} dangerouslySetInnerHTML={{ __html: news.text_full }} />
                       </div>
                     </>
                   </li>
 
                 ))
               }
-              {/* <li className={`home_news_item ${selectedItemIndex === 1 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(1)}>
-                <>
-                  <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 1)}>
-                    {selectedItemIndex === 1 ? 'Yopish' : 'Yopish'}
-                  </button>
-                  <img className='home_news_img' src="https://tatunf.uz/images/news/2024/may/1/8.jpg" alt="" />
-                  <div>
-                    <h4>"Jaslar akademiyası forumı" bolıp ótti.</h4>
-                    <p>30-aprel kúni Nókis kánshilik institutında Ájiniyaz atındaǵı NMPI, Muhammed al-Xorezmiy atındaǵı TITU</p>
-                  </div>
-                </>
-              </li>
-              <li className={`home_news_item ${selectedItemIndex === 2 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(2)}>
-                <>
-                  <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 2)}>
-                    {selectedItemIndex === 2 ? 'Yopish' : 'Yopish'}
-                  </button>
-                  <img className='home_news_img' src="https://tatunf.uz/images/news/2024/may/1/11.jpg" alt="" />
-                  <div>
-                    <h4>Búgin erte tańnan paytaxtımız boylap «Bir watanda, bir waqıtta, birdey aralıqqa, bir maqsette – birgelikte</h4>
-                    <p>Marafonda bárshe qatnasıwshılar qatarında Muhammed al-Xorezmiy atındaģı TITU Nókis filialı basshılar</p>
-                  </div>
-                </>
-              </li>
-              <li className={`home_news_item ${selectedItemIndex === 3 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(3)}>
-                <>
-                  <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 3)}>
-                    {selectedItemIndex === 3 ? 'Yopish' : 'Yopish'}
-                  </button>
-                  <img className='home_news_img' src="https://tatunf.uz/images/news/2024/april/5/6.jpg" alt="" />
-                  <div>
-                    <h4>Mutoala loyihasi taqdimoti bilan tanishmoqda</h4>
-                    <p>
-                      Ayni damda, Muhammad al-Xorazmiy nomidagi TATU Nukus filiali talaba-yoshlari tadbir doirasida O'zbek xalqi Jadidlarining ilm-ma'rifat ulashish maqsadida hayot yo'llarida bosib o'tgan qiyinchiliklarini aks ettirgan spektaklni tomosha qilmoqda.
-                      Ayni damda, Muhammad al-Xorazmiy nomidagi TATU Nukus filiali talaba-yoshlari tadbir doirasida O'zbek xalqi Jadidlarining ilm-ma'rifat ulashish maqsadida hayot yo'llarida bosib o'tgan qiyinchiliklarini aks ettirgan spektaklni tomosha qilmoqda.
-                    </p>
-                  </div>
-                </>
-              </li>
-              <li className={`home_news_item ${selectedItemIndex === 4 ? 'home_news_active' : 'home_news_item'}`} onClick={() => handleItemClick(4)}>
-                <>
-                  <button className='home_news_item_btn' onClick={(event) => handleButtonToggle(event, 4)}>
-                    {selectedItemIndex === 4 ? 'Yopish' : 'Yopish'}
-                  </button>
-                  <img className='home_news_img' src="https://tatunf.uz/images/news/2024/april/5/24.jpg" alt="" />
-                  <div>
-                    <h4>"Xon atlas" ilaji bolıp ótti</h4>
-                    <p>Filialımızda hayal-qızlarımızdıń milliy kóyleklerinde xalqımızdıń mıń ásirlik ótmishi, úrp-ádet hám dástúrleri sáwlelendirilgen kórinisler jámlengen "Xon atlas" hápteligi sheńberinde ilaj bolıp ótti.</p>
-                  </div>
-                </>
-              </li> */}
             </ul>
           </div>
 

@@ -15,7 +15,6 @@ export default function Header() {
         <li><Link to='employees'>Xodimlar</Link></li>
         <li><Link to='teacher'>O'qituvchilar</Link></li>
         <li><Link to='curriculum'>O'quv jarayoni</Link></li>
-        {/* <li><Link to='exam-schedule'></Link></li> */}
       </ul>
       <button id='menubar_btn' onClick={() => {
         if (show === 'header_show') {

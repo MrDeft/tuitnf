@@ -10,7 +10,7 @@ export default function head() {
                 </h4>
             </div>
             <div>
-                {/* <img src="https://tatunf.uz/views/img/gerb_flag.jpg" alt="" /> */}
+                <img src="https://tatunf.uz/views/img/gerb_flag.jpg" alt="" />
             </div>
         </div>
     )
