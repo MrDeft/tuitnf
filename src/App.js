@@ -12,12 +12,13 @@ import at1 from './component/curs/at1';
 import at2 from './component/curs/at2';
 import home from './component/Home';
 import employees from './component/employees';
-
+import Head from './component/head';
 
 function App() {
   return (
     <BrowserRouter future={{ v7_startTransition: true }}>
       <div className="App">
+        <Head/>
         <Header />
         <Routes>
           <Route

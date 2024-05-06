@@ -9,6 +9,30 @@ body {
   color: #1c1c1c;
 }
 
+.App {
+  overflow-x: hidden;
+}
+
+.head {
+  padding: 30px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.head div {
+  display: flex;
+  width: 40%;
+  gap: 10px;
+  /* text-align: center; */
+  align-items: center;
+}
+
+.head div:first-child img {
+  width: 110px;
+  height: 110px;
+}
+
 button {
   opacity: 1;
   border: none;
@@ -75,7 +99,7 @@ header .logo {
 header .logo a {
   height: 70px;
   display: grid;
-  font-size: 32px;
+  font-size: 20px;
   align-items: center;
 }
 
@@ -492,25 +516,16 @@ header img {
 
 
 
-
 /* Teacher Card */
 .teacher h2 {
   top: 2%;
   left: 5%;
 }
 
-.teacher_plus .home_img::before {
-  height: 100vh;
-  position: fixed;
-}
-
-.teacher_plus .home_img>img {
-  position: fixed;
-  z-index: -1;
-}
 .teacher_com::-webkit-scrollbar {
   display: none;
 }
+
 .teacher_com {
   left: 5%;
   width: 90%;
@@ -521,22 +536,23 @@ header img {
   overflow: scroll;
   position: absolute;
   overflow-x: hidden;
-  
 }
-.teacher_com > div {
+
+.teacher_com>div {
   border-top: 1px solid white;
   padding-bottom: 100px;
 }
+
 .teacher_com h3 {
   color: goldenrod;
   padding: 20px 20px;
 }
+
 .card_com {
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
 }
-
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -577,24 +593,30 @@ header img {
     display: block;
     padding: 20px;
   }
+
   .home_footer_item:first-child {
     border-bottom: 1px solid black;
     padding-bottom: 20px;
   }
+
   .home_footer_item:last-child {
     padding-left: 20px;
   }
 }
+
 @media only screen and (max-width: 735px) {
   .home_link .home_link_com {
     display: block;
   }
+
   .home_link .home_link_item {
     margin: 10px 0px;
   }
+
   .home_footer_item iframe {
     width: 90%;
   }
+
   .header {
     top: 0;
     width: 300px;
