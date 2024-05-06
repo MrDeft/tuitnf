@@ -3,7 +3,7 @@ import React from 'react'
 import Header from "./component/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import examSchedule from "./component/examSchedule";
-import lessonSchedule from "./component/lessonSchedule";
+import about from "./component/about";
 import teacher from './component/teacher';
 import curriculum from './component/curriculum';
 import di1 from './component/curs/di1';
@@ -30,8 +30,8 @@ function App() {
             Component={examSchedule}
           />
           <Route
-            path="/lesson-schedule/"
-            Component={lessonSchedule}
+            path="/about/"
+            Component={about}
           />
           <Route
             path="/teacher/"

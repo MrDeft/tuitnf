@@ -31,7 +31,9 @@ export default function Home() {
     <div className='home'>
       <div className='home_img'>
         <div className='home_com'>
-          {/* <h3>Muhammad al-Xorazmiy nomidagi TATU Nukus filiali Masofaviy Ta'lim tizimi</h3> */}
+          <h3>
+          Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti Nukus filiali “Masofaviy ta’limni tashkil etish va rivojlantirish” markazi rasmiy web sahifasi
+          </h3>
           {/* Yangiliklar */}
           <div className='home_news'>
             <h1>Yangiliklar</h1>

@@ -11,10 +11,10 @@ export default function Header() {
         <Link to='/'><p>Bosh sahifa</p></Link>
       </div>
       <ul className={`header ` + show}>
-        <li><Link to='lesson-schedule'>Biz haqimizda</Link></li>
-        <li><Link to='teacher'>O'qituvchilar</Link></li>
+        <li><Link to='about'>Biz haqimizda</Link></li>
         <li><Link to='employees'>Xodimlar</Link></li>
-        <li><Link to='curriculum'>O'quv rejasi</Link></li>
+        <li><Link to='teacher'>O'qituvchilar</Link></li>
+        <li><Link to='curriculum'>O'quv jarayoni</Link></li>
         {/* <li><Link to='exam-schedule'></Link></li> */}
       </ul>
       <button id='menubar_btn' onClick={() => {
