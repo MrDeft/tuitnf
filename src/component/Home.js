@@ -32,7 +32,7 @@ export default function Home() {
       <div className='home_img'>
         <div className='home_com'>
           <h3>
-            Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti Nukus filiali “Masofaviy ta’limni tashkil etish va rivojlantirish” markazi rasmiy web sahifasi
+            Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti Nukus filiali “Masofaviy ta’limni tashkil etish va rivojlantirish” markazi rasmiy web sahifasiga xush kelibsiz
           </h3>
           {/* Yangiliklar */}
           <div className='home_news'>
