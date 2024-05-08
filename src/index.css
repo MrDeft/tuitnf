@@ -689,7 +689,7 @@ header img {
 
 .card img {
   width: 250px;
-  height: 250px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 950px) {

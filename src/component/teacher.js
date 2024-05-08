@@ -32,7 +32,7 @@ export default function Teacher() {
                     <img src={teacher.rasm ? teacher.rasm : avatar} alt="Avatar" />
                     <div className="card_container">
                       <h4><b><span className='card_span'>F.I.Sh:</span>{teacher.fish}</b></h4>
-                      <p>PhD</p>
+                      <p>{teacher.daraja}</p>
                       <h5><b><span className='card_span'>Fan:</span>{teacher.fan}</b></h5>
                     </div>
                   </li>
@@ -53,7 +53,7 @@ export default function Teacher() {
                     <img src={teacher.rasm ? teacher.rasm : avatar} alt="Avatar" />
                     <div className="card_container">
                       <h4><b><span className='card_span'>F.I.Sh:</span>{teacher.fish}</b></h4>
-                      <p>PhD</p>
+                      <p>{teacher.daraja}</p>
                       <h5><b><span className='card_span'>Fan:</span>{teacher.fan}</b></h5>
                     </div>
                   </li>
