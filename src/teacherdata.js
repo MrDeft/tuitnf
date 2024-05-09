@@ -31,5 +31,4 @@ const Teacherdata = {
     { fish: "Gulnaz Aymurzayeva Puxarbayevna", fan: "Diskret tuzilmalar", daraja: "Assistent", rasm: "/teacher/Gulnaz_Aymurzayeva.jpg" }
   ]
 }
-// C:\Users\User\Desktop\Diplomnaya\src\
 export default Teacherdata;
