@@ -5,10 +5,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import about from "./component/about";
 import teacher from './component/teacher';
 import curriculum from './component/curriculum';
-import di1 from './component/curs/di1';
-import di2 from './component/curs/di2';
-import at1 from './component/curs/at1';
-import at2 from './component/curs/at2';
+// import di1 from './component/di1';
+// import di2 from './component/curs/di2';
+// import at1 from './component/curs/at1';
+// import at2 from './component/curs/at2';
 import home from './component/Home';
 import employees from './component/employees';
 import Head from './component/head';
@@ -43,11 +43,11 @@ function App() {
 
           {/* Curs */}
 
-          <Route
+          {/* <Route
             path="/curriculum/di1"
             Component={di1}
-          />
-          <Route
+          /> */}
+          {/* <Route
             path="/curriculum/di2"
             Component={di2}
           />
@@ -58,7 +58,7 @@ function App() {
           <Route
             path="/curriculum/at2"
             Component={at2}
-          />
+          /> */}
         </Routes>
       </div>
     </BrowserRouter>

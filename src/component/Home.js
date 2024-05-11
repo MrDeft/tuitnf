@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import tatuimg from '../masofaviy/tatuimg.png'
 import gerb from '../images/gerb.png'
 import News from '../news'
-// import { Link } from 'react-router-dom'
 import facebook from '../images/social/facebook.svg'
 import instagram from '../images/social/instagram.svg'
 import telegram from '../images/social/telegram.svg'
@@ -19,7 +18,7 @@ export default function Home() {
   };
 
   const handleButtonToggle = (event, index) => {
-    event.stopPropagation(); // Bunda li elementining bosilishini to'xtatamiz
+    event.stopPropagation();
     setSelectedItemIndex(selectedItemIndex === index ? null : index);
   };
 

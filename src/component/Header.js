@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-// import logo from '../logo.png'
 
 export default function Header() {
   const [show, setShow] = useState('header_hidden')
   return (
     <header>
       <div className='logo'>
-        {/* <Link to='/'><img src={logo} alt="" /></Link> */}
         <Link to='/'><p>Bosh sahifa</p></Link>
       </div>
       <ul className={`header ` + show}>

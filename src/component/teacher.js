@@ -9,7 +9,6 @@ export default function Teacher() {
   const [teachers2, setTeachers2] = useState([]);
 
   useEffect(() => {
-    // data ma'lumotlarini ishlatish
     setTeachers1(Teacherdata.teachers1);
     setTeachers2(Teacherdata.teachers2);
   }, []);

@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { Link } from 'react-router-dom'
 import tatuimg from '../masofaviy/tatuimg.png'
 import ki1 from '../images/dars/ki-1-kurs.png'
 import ki2 from '../images/dars/ki-2-kurs.png'
@@ -7,6 +6,7 @@ import kt1 from '../images/dars/kt-1-kurs.png'
 import kt2 from '../images/dars/kt-2-kurs.png'
 import ekzamen01 from '../images/exam/ekzamen01.jpg'
 import ekzamen02 from '../images/exam/ekzamen02.jpg'
+import Jarayon from './jarayon'
 
 export default function Curriculum() {
     const [activeDiv, setActiveDiv] = useState(null); // Faol divni saqlash uchun holat o'zgaruvchisi
@@ -66,15 +66,8 @@ export default function Curriculum() {
             <ul className='curriculum_in'>
 
                 {/* O'quv jarayoni */}
-                <li className='curriculum_img'>
-                    <h1>O'quv rejasi</h1>
-                    <ul className='curriculum_com'>
-                        <li><Link to="/curriculum/di1">1-Kurs Dasturiy injiniring</Link></li>
-                        <li><Link to="/curriculum/di2">2-Kurs Dasturiy injiniring</Link></li>
-                        <li><Link to="/curriculum/at1">1-Kurs AT</Link></li>
-                        <li><Link to="/curriculum/at2">2-Kurs AT</Link></li>
-                    </ul>
-                </li>
+                <Jarayon />
+
 
                 {/* Dars jadvali */}
                 <li className='lesson'>
@@ -113,7 +106,7 @@ export default function Curriculum() {
                     </ul>
                 </li>
 
-                {/* Imtihom */}
+                {/* Imtihon */}
                 <li className='exam'>
                     <h1>Imtihom jadvali</h1>
                     <ul className='lesson_com'>
