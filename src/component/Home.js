@@ -87,6 +87,18 @@ export default function Home() {
                 </a>
               </li>
 
+              <li className='home_link_item'>
+                <a href="https://tatunf.uz">
+                  <div>
+                    <img src={gerb} alt="" />
+                    <div>
+                      <h4>Toshkent axborot texnologiyalari universiteti Nukus filiali</h4>
+                      <p><span>Asosiy</span> web sayti</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
             </ul>
           </div>
 
