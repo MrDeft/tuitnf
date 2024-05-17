@@ -14,8 +14,6 @@ body {
 }
 
 .head {
-  /* padding: 20px; */
-  /* display: flex; */
   margin: auto;
 }
 
@@ -30,7 +28,6 @@ body {
   display: flex;
   width: 40%;
   gap: 10px;
-  /* text-align: center; */
   align-items: center;
 }
 
@@ -153,12 +150,9 @@ header img {
 .home .home_com>h3 {
   top: 2%;
   margin: 300px 0px;
-  /* margin-bottom: 300px; */
   text-align: center;
   font-size: 24px;
-  /* left: 5%; */
   color: white;
-  /* position: absolute; */
 }
 
 .home .home_com {
@@ -499,6 +493,7 @@ header img {
   color: white;
   background-color: #04567d;
 }
+
 .lesson_item_titul_active_di {
   color: white;
   background-color: #04567d;
@@ -507,6 +502,7 @@ header img {
 .lesson_item_img_active {
   left: 0px;
 }
+
 .lesson_item_img_active_di {
   left: 0px;
 }
@@ -519,13 +515,6 @@ header img {
 .exam {
   padding: 20px;
 }
-
-
-
-
-
-
-
 
 /* Employees */
 .employees {
@@ -561,16 +550,35 @@ header img {
   align-items: center;
   background-color: #ebebeb73;
 }
-
-.employees .bolim_item:hover {
-  cursor: pointer;
-  transform: scale(1.02);
-}
-
-.employees .bolim img {
+.employees .bolim_item img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
+}
+.employees .bolim_item_active {
+  top: 10%;
+  left: 5%;
+  width: 90%;
+  height: 80%;
+  /* color: white; */
+  position: fixed;
+  background-color: #ebebebd8;
+}
+.employees .bolim_item_active p {
+  padding-left: 20px;
+}
+.employees .bolim_item_active img {
+  width: 30%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 0%;
+}
+.employees .bolim_item:hover {
+  cursor: pointer;
+  /* transform: scale(1.02); */
+}
+.bolim_item_text {
+  display: none;
 }
 
 
@@ -626,14 +634,16 @@ header img {
 }
 
 .about_yout {
-  gap: 20px;
+  gap: 30px;
   display: flex;
   flex-wrap: wrap;
   margin: 20px 0px;
   justify-content: center;
 }
-
-
+.about_yout div {
+  color: white;
+  width: min-content;
+}
 
 
 /* Teacher Card */

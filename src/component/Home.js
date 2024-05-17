@@ -12,28 +12,23 @@ import website from '../images/social/website.png'
 export default function Home() {
   const [news, setNews] = useState([]);
   const [selectedItemIndex, setSelectedItemIndex] = useState(null);
-
   const handleItemClick = (index) => {
     setSelectedItemIndex(index === selectedItemIndex ? null : index);
   };
-
   const handleButtonToggle = (event, index) => {
     event.stopPropagation();
     setSelectedItemIndex(selectedItemIndex === index ? null : index);
   };
-
   useEffect(() => {
     setNews(News.news)
   }, [])
-
   return (
     <div className='home'>
       <div className='home_img'>
         <div className='home_com'>
           <h3>
-            Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti Nukus filiali “Masofaviy ta’limni tashkil etish va rivojlantirish” markazi rasmiy web sahifasiga xush kelibsiz
+            Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti Nukus filiali “Masofaviy ta’limni tashkil etish va rivojlantirish” markazi rasmiy veb-saytiga xush kelibsiz
           </h3>
-          {/* Yangiliklar */}
           <div className='home_news'>
             <h1>Yangiliklar</h1>
             <ul className='home_news_com'>
@@ -52,17 +47,13 @@ export default function Home() {
                       </div>
                     </>
                   </li>
-
                 ))
               }
             </ul>
           </div>
-
-          {/* Havolalaar */}
           <div className='home_link'>
             <h1>Foydali hovalalar</h1>
             <ul className='home_link_com'>
-
               <li className='home_link_item'>
                 <a href="https://student.tatunf.uz/dashboard/login">
                   <div>
@@ -74,7 +65,6 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-
               <li className='home_link_item'>
                 <a href="https://studentlms.tatunf.uz">
                   <div>
@@ -86,7 +76,6 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-
               <li className='home_link_item'>
                 <a href="https://tatunf.uz">
                   <div>
@@ -101,8 +90,6 @@ export default function Home() {
 
             </ul>
           </div>
-
-          {/* Footer */}
           <div className='home_footer'>
             <ul className='home_footer_com'>
               <li className='home_footer_item'>
@@ -136,12 +123,10 @@ export default function Home() {
                     </ul>
                   </li>
                 </ul>
-
               </li>
             </ul>
           </div>
         </div>
-
         <img src={tatuimg} alt="" />
       </div>
     </div>
