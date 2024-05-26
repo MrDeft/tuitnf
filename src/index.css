@@ -550,11 +550,13 @@ header img {
   align-items: center;
   background-color: #ebebeb73;
 }
+
 .employees .bolim_item img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
 }
+
 .employees .bolim_item_active {
   top: 10%;
   left: 5%;
@@ -564,19 +566,23 @@ header img {
   position: fixed;
   background-color: #ebebebd8;
 }
+
 .employees .bolim_item_active p {
   padding-left: 20px;
 }
+
 .employees .bolim_item_active img {
   width: 30%;
   height: 70%;
   object-fit: cover;
   border-radius: 0%;
 }
+
 .employees .bolim_item:hover {
   cursor: pointer;
   /* transform: scale(1.02); */
 }
+
 .bolim_item_text {
   display: none;
 }
@@ -640,6 +646,7 @@ header img {
   margin: 20px 0px;
   justify-content: center;
 }
+
 .about_yout div {
   color: white;
   width: min-content;
@@ -718,6 +725,48 @@ header img {
   height: 300px;
 }
 
+.select-container {
+  right: 5%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+
+.selected-value {
+  display: flex;
+  width: 30px;
+  align-items: center;
+}
+
+.custom-image {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.custom-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.custom-select {
+  padding: 0px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #107c9c;
+}
+
+.custom-select option {
+  background-color: #04567d;
+}
+
+.custom-select option:hover {
+  background-color: #007bff;
+}
+
 @media only screen and (max-width: 950px) {
   .home_footer_com {
     display: block;
@@ -731,6 +780,10 @@ header img {
 
   .home_footer_item:last-child {
     padding-left: 20px;
+  }
+
+  .select-container {
+    right: 0%;
   }
 }
 
@@ -774,6 +827,9 @@ header img {
 
   #menubar_btn {
     visibility: visible;
+  }
+  .select-container {
+    display: none;
   }
 }
 

@@ -39,7 +39,7 @@ export default function Jarayon() {
     }, [activDiv]);
     return (
         <li className='lesson'>
-            <h1>Dars jarayoni</h1>
+            <h1>O'quv rejasi</h1>
             <ul className='lesson_com' style={{ height: `${containerHeigh + 30}px` }}>
 
                 <li className='lesson_component'>

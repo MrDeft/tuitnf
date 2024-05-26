@@ -24,7 +24,7 @@ const Teacherdata = {
     { fish: "Nodira Nazirbayeva	Kamiljanovna", fan: "Algoritmlarni loyihalash", daraja: "Assistent", rasm: "/teacher/Nodira_Nazirbayeva.png" },
     { fish: "Bayramgul Jubanova Aymuratovna", fan: "Ehtimollik va statistika", daraja: "PhD", rasm: "/teacher/Bayramgul_Jubanova.png" },
     { fish: "Seregul Xojaniyazova Paraxatovna", fan: "Malumotlar tuzilmasi va strukturalar", daraja: "Assistent", "rasm": "" },
-    { fish: "Nargiza Abdinasirova Abdrasuliyevna", fan: "Malumotlar tuzilmasi va strukturalar", daraja: "Assistent", "rasm": "" },
+    { fish: "Nargiza Abdinasirova Abdrasuliyevna", fan: "Malumotlar tuzilmasi va strukturalar", daraja: "Assistent", rasm: "/teacher/Nargiza_Abdinasirova.png" },
     { fish: "Yermuxammed Kojametov Abatovich", fan: "Kiberxavfsizlik asoslari", daraja: "Assistent", rasm: "/teacher/Yermuxammed_Kojametov.jpg" },
     { fish: "Elmurod Babadjanov Satimbayevich", fan: "Malumotlar bazasi", daraja: "PhD", rasm: "/teacher/Elmurod_Babadjanov.jpg" },
     { fish: "Umida To‘liboyeva Gulmirza qizi", fan: "Malumotlar bazasi", daraja: "Assistent", "rasm": "" },

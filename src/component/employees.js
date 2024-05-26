@@ -83,7 +83,14 @@ export default function Employees() {
             <img src={avatar} alt="" />
             <p><b>I.Isakov</b> - Masofaviy ta'lim shakli uchun olinadigan video kontent
               uskunalarinining doimiy ishlashini ta'minlash, sozlash va nazorat qilishga ma'sul
-              <span style={{ display: activeIndex === 4 ? 'flex' : '' }} className='bolim_item_text'></span>
+              <span style={{ display: activeIndex === 4 ? 'flex' : '' }} className='bolim_item_text'>
+                <br/>
+                2019-2023 -yil oraligida Muxammad-al' Xorazmiy nomidagi  Toshkent axborot texnologiyalari universiteti Nukus filiali (bakalavriat) ;
+                <br/>
+                2023 yildan Muxammad-al' Xorazmiy nomidagi  Toshkent axborot texnologiyalari universiteti Nukus filiali (Komp'yuter injiniringi yonalishi 1-kurs magistranti)
+                <br/>
+                2023-yil 22-noyabrdan Muxammad-al' Xorazmiy nomidagi  Toshkent axborot texnologiyalari universiteti Nukus filiali « Araliktan okitiu orayi» ga normativ-xukukiy xujjatlarin yurgizish va olib borish boyicha laborant.
+              </span>
             </p>
           </li>
         </ul>

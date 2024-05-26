@@ -87,6 +87,17 @@ export default function Home() {
                   </div>
                 </a>
               </li>
+              <li className='home_link_item'>
+                <a href="https://tuit.uz">
+                  <div>
+                    <img src={gerb} alt="" />
+                    <div>
+                      <h4>Toshkent axborot texnologiyalari universiteti</h4>
+                      <p><span>Asosiy</span> web sayti</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
 
             </ul>
           </div>
