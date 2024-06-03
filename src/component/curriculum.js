@@ -79,7 +79,7 @@ export default function Curriculum() {
                     </ul>
                 </li>
                 <li className='exam'>
-                    <h1>Imtihom jadvali</h1>
+                    <h1>Imtihon jadvali</h1>
                     <ul className='lesson_com'>
                         <li className='lesson_component'>
                             <div className='lesson_item_titul'><button onClick={removeAllActiveTabClasses}>Yopish</button></div>

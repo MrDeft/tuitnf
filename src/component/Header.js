@@ -41,7 +41,9 @@ export default function Header() {
           setShow('header_show')
           document.getElementById('menubar_btn').style.right = '320px'
         }
-      }}>Menu</button>
+      }}><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="18" viewBox="5 0 45 45">
+      <path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"></path>
+      </svg></button>
       <div className="select-container">
         <div className="selected-value">
           <img src={selectedOption.image} alt={selectedOption.label} className="custom-image" />

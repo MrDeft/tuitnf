@@ -788,6 +788,9 @@ header img {
 }
 
 @media only screen and (max-width: 735px) {
+  .home .home_news_com {
+    justify-content: center;
+  }
   .home_link .home_link_com {
     display: block;
   }

@@ -4,6 +4,7 @@ import avatar from '../images/avatar.png'
 import Quat_Tleuov from '../images/bolim/Quat_Tleuov.jpg'
 import E_Umirzakov from '../images/bolim/E_Umirzakov.jpg'
 import D_Bimuratov from '../images/bolim/D_Bimuratov.png'
+import I_Isakov from '../images/bolim/I_Isakov.png'
 
 export default function Employees() {
 
@@ -24,7 +25,44 @@ export default function Employees() {
           >
             <img src={Quat_Tleuov} alt="" />
             <p><b>K.Tleuov</b> - Masofaviy ta'limni tashkil etish vа rivojlantirish markazi boshig'i
-              <span style={{ display: activeIndex === 0 ? 'flex' : '' }} className='bolim_item_text'></span>
+              <span style={{ display: activeIndex === 0 ? 'flex' : '' }} className='bolim_item_text'>
+                <br />
+                1998-1999 yy. - Qoraqalpog‘iston  markaziy mashina traktor parki III-toifali slesar'
+                <br />
+                1999-2003 yy. - Qoraqalpoq davlat universiteti matematika fakulteti talabasi
+                <br />
+                2003-2005 yy. - Qoraqalpoq davlat universiteti amaliy matematika kafedrasi magistranti
+                <br />
+                2005-2007 yy. - Qoraqalpoq davlat universiteti matematika fakulteti assistent-o‘qituvchisi
+                <br />
+                2007-2008 yy. - O‘zbekiston Milliy universiteti aspiranti
+                <br />
+                2008-2009 yy. - Qoraqalpoq davlat universiteti matematika fakulteti assistent-o‘qituvchisi
+                <br />
+                2009-2013 yy. - Toshkent axborot texnologiyalari universiteti Nukus filiali tabiiy va umumkasbiy
+                fanlar kafedrasi assistent-o‘qituvchisi
+                <br />
+                2013-2014 yy. - Toshkent axborot texnologiyalari universiteti Nukus filiali telekommunikasiya
+                injiniringi kafedrasi mudiri
+                <br />
+                2014-2015 yy. - Toshkent axborot texnologiyalari universiteti Nukus filiali axborot texnologiyalari
+                kafedrasi assistent-o‘qituvchisi
+                <br />
+                2015-2016 yy. - Toshkent axborot texnologiyalari universiteti Nukus filialining o‘quv-metodik bo‘limi
+                boshlig‘i
+                <br />
+                2016-2017 yy. -Toshkent axborot texnologiyalari universiteti Nukus filiali dasturiy injiniring
+                kafedrasi katta o‘qituvchisi
+                <br />
+                2017-2018 yy. - Qoraqalpog‘iston Resublikasi Vazirlar Kengashi huzuridagi “Qoraqalpog‘iston
+                komp'yuterlashtirish markazi” DUK direktori
+                <br />
+                2018-2018 yy. - Muxammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti Nukus
+                filiali telekommunikasiya injiniring kafedrasi mudiri
+                <br />
+                2018- y. h.v.    - Muxammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti Nukus
+                filiali axborot texnologiyalari kafedrasi katta o‘qituvchisi
+              </span>
             </p>
           </li>
           <li className={`bolim_item ' + ${activeIndex === 1 ? 'bolim_item_active' : ''}`}
@@ -80,15 +118,15 @@ export default function Employees() {
           <li className={`bolim_item ' + ${activeIndex === 4 ? 'bolim_item_active' : ''}`}
             onClick={() => handleLiClick(4)}
           >
-            <img src={avatar} alt="" />
+            <img src={I_Isakov} alt="" />
             <p><b>I.Isakov</b> - Masofaviy ta'lim shakli uchun olinadigan video kontent
               uskunalarinining doimiy ishlashini ta'minlash, sozlash va nazorat qilishga ma'sul
               <span style={{ display: activeIndex === 4 ? 'flex' : '' }} className='bolim_item_text'>
-                <br/>
+                <br />
                 2019-2023 -yil oraligida Muxammad-al' Xorazmiy nomidagi  Toshkent axborot texnologiyalari universiteti Nukus filiali (bakalavriat) ;
-                <br/>
+                <br />
                 2023 yildan Muxammad-al' Xorazmiy nomidagi  Toshkent axborot texnologiyalari universiteti Nukus filiali (Komp'yuter injiniringi yonalishi 1-kurs magistranti)
-                <br/>
+                <br />
                 2023-yil 22-noyabrdan Muxammad-al' Xorazmiy nomidagi  Toshkent axborot texnologiyalari universiteti Nukus filiali « Araliktan okitiu orayi» ga normativ-xukukiy xujjatlarin yurgizish va olib borish boyicha laborant.
               </span>
             </p>
