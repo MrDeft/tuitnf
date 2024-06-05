@@ -5,6 +5,7 @@ import Quat_Tleuov from '../images/bolim/Quat_Tleuov.jpg'
 import E_Umirzakov from '../images/bolim/E_Umirzakov.jpg'
 import D_Bimuratov from '../images/bolim/D_Bimuratov.png'
 import I_Isakov from '../images/bolim/I_Isakov.png'
+import D_Qodirov from '../images/bolim/D_Qodirov.png'
 
 export default function Employees() {
 
@@ -89,7 +90,7 @@ export default function Employees() {
           <li className={`bolim_item ' + ${activeIndex === 2 ? 'bolim_item_active' : ''}`}
             onClick={() => handleLiClick(2)}
           >
-            <img src={avatar} alt="" />
+            <img src={D_Qodirov} alt="" />
             <p><b>D.Qodirov</b> - 1-kurs talabalarning o'qish jarayonini nazorat qilish, kursdan
               kursga o'tkazish va o'zlashtirish ko'rsatkichlarini nazorat qilib borishga ma'sul
               <span style={{ display: activeIndex === 2 ? 'flex' : '' }} className='bolim_item_text'></span>
