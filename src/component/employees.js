@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import tatuimg from '../masofaviy/tatuimg.png'
-import avatar from '../images/avatar.png'
 import Quat_Tleuov from '../images/bolim/Quat_Tleuov.jpg'
 import E_Umirzakov from '../images/bolim/E_Umirzakov.jpg'
 import D_Bimuratov from '../images/bolim/D_Bimuratov.png'
