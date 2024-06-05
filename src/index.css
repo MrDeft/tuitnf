@@ -160,13 +160,11 @@ header img {
   left: 5%;
   top: 1%;
   width: 90%;
-  /* margin: auto; */
   height: 89vh;
   margin: auto;
   color: white;
   overflow-y: scroll;
   overflow-x: hidden;
-  /* margin-right: 5%; */
   position: absolute;
   padding-bottom: 40px;
 }
@@ -566,7 +564,6 @@ header img {
   left: 5%;
   width: 90%;
   height: 80%;
-  /* color: white; */
   position: fixed;
   background-color: #ebebebd8;
 }
@@ -584,7 +581,6 @@ header img {
 
 .employees .bolim_item:hover {
   cursor: pointer;
-  /* transform: scale(1.02); */
 }
 
 .bolim_item_text {
@@ -776,9 +772,11 @@ header img {
     display: block;
     padding: 20px;
   }
+
   .head .head_com div:first-child {
-    width: 70%;
+    width: 80%;
   }
+
   .head .head_com div:last-child {
     visibility: hidden;
   }
@@ -798,9 +796,18 @@ header img {
 }
 
 @media only screen and (max-width: 735px) {
+  .head .head_com div:last-child {
+    display: none;
+  }
+
+  .head .head_com div:first-child {
+    width: 100%;
+  }
+
   .home .home_news_com {
     justify-content: center;
   }
+
   .home_link .home_link_com {
     display: block;
   }
@@ -841,6 +848,7 @@ header img {
   #menubar_btn {
     visibility: visible;
   }
+
   .select-container {
     display: none;
   }
